@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: ticktimedb
+      POSTGRES_USER: alex
+      POSTGRES_PASSWORD: root
+      network_mode: bridge
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+volumes:
+  db-data:

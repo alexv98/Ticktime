@@ -1,0 +1,7 @@
+{
+  "watch": ["src", "prisma"],
+  "exec": "ts-node src/index.ts",
+  "ext": "ts",
+  "cwd": "."
+}
+

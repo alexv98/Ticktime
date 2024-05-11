@@ -1,0 +1,17 @@
+node_modules/
+build/
+dist/
+out/
+.DS_Store
+Thumbs.db
+
+.idea/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+.env.local
+.env*
+*.log
+*.gz
